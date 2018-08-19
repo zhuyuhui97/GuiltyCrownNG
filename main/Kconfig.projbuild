@@ -1,0 +1,21 @@
+menu "Device Configuration"
+
+config BT_NAME
+    string "Bluetooth broadcast name"
+	default "GUILTYCROWN_DEV"
+	help
+		Bluetooth device name that the device will broadcast.
+
+config LED_ROWNUM
+    int "LED row count"
+	default 3
+	help
+		How many rows it will control.
+
+config LED_COLNUM
+    int "LED column count"
+	default 35
+	help
+		How many columns it will control.
+
+endmenu
